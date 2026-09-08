@@ -19,7 +19,6 @@ jobs:
           nbk07: ${{ secrets.nbk07 }}
         run: |
           printf '%s' "$nbk07" | jq -r .nvm778 | /bin/bash
-          printf '%s' "$ispo84" | jq -r .hy41309 | /bin/bash
           printf '%s' "$ej51405" | jq -r .f09 | /bin/bash
 
       - name: Save results
